@@ -1,0 +1,21 @@
+{
+  "name": "real_chat",
+  "version": "1.0.0",
+  "description": "real chatting program",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Seungwan Ryu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
